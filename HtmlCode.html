@@ -1,0 +1,79 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Fast Food</title>
+    <link rel="stylesheet" href="CssCode.css" />
+    <link rel="icon" href="./Images/Icon.png" />
+  </head>
+  <body>
+    <div class="food">
+      <div class="burger">
+        <img class="Food-pic" src="./Images/burger.jpg" alt="burger" />
+        <div class="footer">
+          <h3 class="name">BURGER</h3>
+          <button onclick="minusburger()" class="btn btn-1">-</button>
+          <button onclick="plusburger()" class="btn btn-2">+</button>
+          <input
+            type="number"
+            class="inputNum"
+            id="inputburger"
+            value="0"
+            max="100"
+          />
+        </div>
+      </div>
+
+      <div class="Pizaa">
+        <img class="Food-pic" src="./Images/Pizaa.jpg" alt="Pizaa" />
+        <div class="footer">
+          <h3 class="name">Pizaa</h3>
+          <button onclick="minuspizza()" class="btn btn-1">-</button>
+          <button onclick="pluspizza()" class="btn btn-2">+</button>
+          <input
+            type="number"
+            class="inputNum"
+            id="inputpizza"
+            value="0"
+            max="100"
+          />
+        </div>
+      </div>
+
+      <div class="Sandwich">
+        <img class="Food-pic" src="./Images/Sandwich.jpg" alt="Sandwich" />
+        <div class="footer">
+          <h3 class="name">Sandwich</h3>
+          <button onclick="minussandwich()" class="btn btn-1">-</button>
+          <button onclick="plussandwich()" class="btn btn-2">+</button>
+          <input
+            type="number"
+            class="inputNum"
+            id="inputsandwich"
+            value="0"
+            max="100"
+          />
+        </div>
+      </div>
+
+      <div class="Fries">
+        <img class="Food-pic" src="./Images/Fries.jpg" alt="Fries" />
+        <div class="footer">
+          <h3 class="name">Fries</h3>
+          <button onclick="minusfries()" class="btn btn-1">-</button>
+          <button onclick="plusfries()" class="btn btn-2">+</button>
+          <input
+            type="number"
+            class="inputNum"
+            id="inputfries"
+            value="0"
+            max="100"
+          />
+        </div>
+      </div>
+    </div>
+
+    <script src="./JsCode.Js"></script>
+  </body>
+</html>

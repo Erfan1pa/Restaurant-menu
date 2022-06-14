@@ -1,0 +1,129 @@
+@font-face {
+  font-family: "Jungle";
+  src: url(./JungleAdventurer.ttf);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Jungle;
+  text-align: center;
+  box-sizing: border-box;
+}
+.food {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 100%;
+  height: 100%;
+  background-image: url("./Images/bg.jpg");
+  background-size: cover;
+  position: relative;
+}
+.burger {
+  background-color: #ffe083;
+  width: 200px;
+  height: 230px;
+  margin: 20px auto;
+  border-radius: 30px;
+  position: relative;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px,
+    rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+}
+.Food-pic {
+  width: 150px;
+  margin-top: 10px;
+  border-radius: 30px;
+}
+.name {
+  position: absolute;
+  top: 65%;
+  left: 30%;
+  color: #fff;
+  width: 75px;
+  letter-spacing: 2px;
+}
+.btn {
+  width: 30px;
+  height: 30px;
+  border-radius: 10px;
+  border: none;
+  background-color: #fdb137;
+  color: #fff;
+  font-size: 20px;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+    rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+    rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+  transition: box-shadow 0.1s linear;
+}
+.btn:hover {
+  cursor: pointer;
+}
+.btn:active {
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+}
+.btn-1 {
+  margin: 20px 0px 0px 20px;
+  position: absolute;
+  z-index: 2;
+  left: 10%;
+}
+.btn-2 {
+  margin: 20px 20px 0px 0px;
+  position: absolute;
+  z-index: 5;
+  right: 10%;
+}
+.inputNum {
+  height: 30px;
+  width: 120px;
+  margin-top: 20px;
+  border-radius: 10px;
+  border: none;
+  z-index: 1;
+  position: absolute;
+  left: 20%;
+  padding-left: 10px;
+  font-size: 17px;
+}
+.inputNum:focus {
+  outline: none;
+}
+.Pizaa {
+  background-color: #ba1b15;
+  width: 200px;
+  height: 230px;
+  margin: 20px auto;
+  border-radius: 30px;
+  position: relative;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px,
+    rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+}
+.Sandwich {
+  background-color: #f89923;
+  width: 200px;
+  height: 230px;
+  margin: 20px auto;
+  border-radius: 30px;
+  position: relative;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px,
+    rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+}
+
+.Fries {
+  background-color: #ffae14;
+  width: 200px;
+  height: 230px;
+  margin: 20px auto;
+  border-radius: 30px;
+  position: relative;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px,
+    rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+}
+@media only screen and (max-width: 420px) {
+  .food {
+    height: 1100;
+    background-image: url("./Images/bg mobile.jpg");
+  }
+}
